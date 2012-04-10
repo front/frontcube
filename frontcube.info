@@ -1,0 +1,18 @@
+name        = Frontcube
+description = Admin theme based on Cube/Rubik.
+base theme  = cube
+core        = 7.x
+version     = 7.x-1.0
+engine      = phptemplate
+
+
+; Styles
+stylesheets[screen][] = css/frontcube.css
+stylesheets[screen][] = css/frontcube-commerce.css
+
+
+; Regions
+regions[top]     = Page top
+regions[content] = Page content
+regions[left]    = Left
+regions[right]   = Right
